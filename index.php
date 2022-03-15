@@ -52,7 +52,7 @@
 		endif;
 		?>
 
-		<?php include(THEME_DIR_PHP.'footer.php'); ?>
+		<?php if ($contact_page){ include(THEME_DIR_PHP.'contact.php'); };?>
 		</div>
 	</div>
 

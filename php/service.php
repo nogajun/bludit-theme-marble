@@ -11,7 +11,7 @@
           </div>
           <div class="fh5co-text">
             <h3><a href="<?php echo $static->permalink() ?>"><?php echo $static->title() ?></a></h3>
-            <p><?php echo $static->description()?limittext($static->description(),140):$language->p('Plase enter a description'); ?></p>
+            <p><?php echo $static->description()?limittext($static->description(),140):$language->p('Plase add a description'); ?></p>
           </div>
         </div>
       </div>

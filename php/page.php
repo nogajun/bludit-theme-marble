@@ -14,4 +14,4 @@
 	</div>
 </div>
 
-<?php include(THEME_DIR_PHP.'service.php'); ?>
+<?php if ($service_page){ include(THEME_DIR_PHP.'service.php'); }; ?>
