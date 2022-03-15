@@ -1,19 +1,23 @@
 Marble theme for Bludit
 ========================
 
-Ported Marble template (Designed by [FREEHTML5.co](https://freehtml5.co/)) to [Bludit](https://www.bludit.com/).
+Ported Marble template (original designed by [FREEHTML5.co](https://freehtml5.co/)) to [Bludit](https://www.bludit.com/).
 
 ## Differences from the original theme
 
 - No portforio page.
 - No recent blog on home page.
 
-## How to use
+## How to add a top page
 
-The static page will be used for the menu.
+Add a static page. Open the options for that page and set "top" as the template on the Advanced tab.
+Go to Settings > Advanced. Set the static page you created to the homepage of the predefined page.
 
-For the hero image, the theme needs a static page with the slug name "service" (not the title) and a child page describing the service. Each page must have a cover image and a description.
+## How to set the hero image
 
+Add a static page with the slug name "service". Create a child page on that "service" static page with a cover image and description.
+
+ex)
 ```
 service
 ├ service1 (with cover image and description)
@@ -21,23 +25,25 @@ service
 └ service3 (with cover image and description)
 ```
 
-To change the service icon, append the following json to the custom field And enter the icomoon icon name in the service child page options.
+## How to add a contact page
+
+Add a static page with the slug name "contact". A link to the contact page is added to the footer.
+The contact page is supported by [contact3](https://plugins.bludit.com/plugin/contact3).
+
+## How to set icons on service pages
+
+Go to Custom Fields in Settings. Add the json below.
 
 ```json
 {
   "icon": {
     "type": "string",
-    "placeholder": "Enter icomoon icon name"
+    "placeholder": "add a icomoon icon name"
   }
 }
 ```
 
-Adding a static page with the slug name "contact" (not the title) will display a link to the contact page and a description in the footer. The contact page is supported by [contact3](https://plugins.bludit.com/plugin/contact3).
-
-
-
-
-
+Go to the child page of the service static page. Open Options and set icomoon font name to Custom. icomoon font name can be found in [fonts/icomoon/demo/demo.html](./fonts/icomoon/demo/demo.html).
 
 ## Compatible
 
@@ -49,20 +55,14 @@ Adding a static page with the slug name "contact" (not the title) will display a
 
 <a href="https://www.buymeacoffee.com/nogajun" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-## Credits
+## Original credits
 
-- TITLE: Marble - Fully Responsive Free HTML5 template
-- AUTHOR: DESIGNED & DEVELOPED by FREEHTML5.co
-    - Website: http://freehtml5.co/
-    - Twitter: http://twitter.com/fh5co
-    - Facebook: http://facebook.com/fh5co
-
-- Marble Free HTML5 Bootstrap Template for Portfolio or Multi Purpose Websites: https://freehtml5.co/marble-free-html5-bootstrap-template-for-portfolio-or-multi-purpose-websites/
-
-## License
-
-- [Creative Commons Attribution 3.0 Unported (CC BY 3.0) ](https://creativecommons.org/licenses/by/3.0/)
-- Frequently Asked Questions - FreeHTML5.co: https://freehtml5.co/faq/#faq-license
+- Title: Marble - Fully Responsive Free HTML5 template
+  - Marble Free HTML5 Bootstrap Template for Portfolio or Multi Purpose Websites: <https://freehtml5.co/marble-free-html5-bootstrap-template-for-portfolio-or-multi-purpose-websites/>
+- Original designed by [FREEHTML5.co](http://freehtml5.co/)
+- License
+  - [Creative Commons Attribution 3.0 Unported (CC BY 3.0) ](https://creativecommons.org/licenses/by/3.0/)
+  - Frequently Asked Questions - FreeHTML5.co: https://freehtml5.co/faq/#faq-license
 
 ## Screenshot
 
