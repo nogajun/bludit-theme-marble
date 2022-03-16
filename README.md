@@ -6,7 +6,7 @@ Ported Marble template (original designed by [FREEHTML5.co](https://freehtml5.co
 ## Differences from the original theme
 
 - No portforio page.
-- No recent blog on home page.
+- No recent blog on top page.
 
 ## How to add a top page
 
