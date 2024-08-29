@@ -1,5 +1,9 @@
-Marble theme for Bludit
-========================
+> [!CAUTION]
+> The author is no longer using Bludit and will archive this theme. If you want to change it, please fork it.
+>
+> 作者がBluditを使わなくなったので、このテーマをアーカイブ化します。変更したい人はフォークしてください。
+
+# Marble theme for Bludit
 
 Ported Marble template (original designed by [FREEHTML5.co](https://freehtml5.co/)) to [Bludit](https://www.bludit.com/).
 
@@ -20,7 +24,8 @@ Ported Marble template (original designed by [FREEHTML5.co](https://freehtml5.co
 2. Create a child page on that "service" static page with a cover image and description.
 
 static pages ex)
-```
+
+```text
 service
 ├ service1 (with cover image and description)
 ├ service2 (with cover image and description)
@@ -57,8 +62,6 @@ A link to the contact page is added to the footer. The contact page is supported
 
 - Jun Nogata <nogajun+bludit@gmail.com>
 
-<a href="https://www.buymeacoffee.com/nogajun" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
 ## Original credits
 
 - Title: Marble - Fully Responsive Free HTML5 template
@@ -67,11 +70,3 @@ A link to the contact page is added to the footer. The contact page is supported
 - License
   - [Creative Commons Attribution 3.0 Unported (CC BY 3.0) ](https://creativecommons.org/licenses/by/3.0/)
   - Frequently Asked Questions - FreeHTML5.co: https://freehtml5.co/faq/#faq-license
-
-## Screenshot
-
-- N/A
-
-## Live Demo
-
-- N/A
